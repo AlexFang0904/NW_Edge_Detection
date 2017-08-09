@@ -271,10 +271,10 @@ def click(event):
     return
   
 ### Parameters ----------------------------------------------------------------
-folder = "C:\Users\Paige\Documents\MASc McMaster\Samples\Sample_1909\Images\Jul7"
-picture = "\\1909_360D1_20deg_20x_2.tif" 
+folder = "C:\Users\ etc etc"
+picture = "\\picture name " 
 
-output = "C:\Users\Paige\Documents\MASc McMaster\Samples\Sample_1909\DH.txt"
+output = "C:\Users\etc etc \outputfile.txt"
 img_name = folder + picture               
                                       # picture name                                      
 unfiltered = ndimage.imread(img_name)
